@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechPulse – Premium Electronics Store</title>
+  <meta name="description"
+    content="TechPulse offers the latest laptops, desktops, components and gadgets for students, gamers and professionals. Fast shipping across Bangladesh.">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span class="hotline">Hotline: <a href="tel:+880123456789">+880 1234 56789</a></span>
+      <a href="#track-order" class="track-order">Track Order</a>
+      <div class="offer-banner">Free delivery on orders over BDT 5,000!</div>
+      <div class="auth-links"><a href="#login">Login</a> / <a href="#register">Register</a></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-inner">
+      <div class="logo"><a href="/">TechPulse</a></div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search products, brands, categories..." />
+        <button type="button" class="search-btn">Search</button>
+      </div>
+      <div class="cart">
+        <a href="#cart" class="cart-icon">🛒<span class="cart-count">0</span></a>
+      </div>
+      <nav class="mega-menu">
+        <ul>
+          <li class="has-dropdown"><a href="#">Categories</a>
+            <div class="dropdown">
+              <div class="dropdown-column">
+                <h4>Laptops</h4>
+                <ul>
+                  <li><a href="#">Gaming Laptops</a></li>
+                  <li><a href="#">Ultrabooks</a></li>
+                  <li><a href="#">Business Laptops</a></li>
+                </ul>
+              </div>
+              <div class="dropdown-column">
+                <h4>Desktops</h4>
+                <ul>
+                  <li><a href="#">Gaming PCs</a></li>
+                  <li><a href="#">Workstations</a></li>
+                </ul>
+              </div>
+              <div class="dropdown-column">
+                <h4>Components</h4>
+                <ul>
+                  <li><a href="#">Processors</a></li>
+                  <li><a href="#">Graphics Cards</a></li>
+                  <li><a href="#">RAM & Storage</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider">
+    <div class="slider-wrapper">
+      <div class="slide" style="background: linear-gradient(135deg, #0d47a1, #d32f2f);">
+        <div class="slide-content">
+          <h1>Upgrade Your Tech Today</h1>
+          <p>Exclusive deals on the latest gadgets.</p>
+          <a href="#shop-now" class="cta-btn">Shop Now</a>
+        </div>
+      </div>
+      <!-- Additional slides can be added here -->
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section class="featured-categories">
+    <div class="container">
+      <h2>Shop by Category</h2>
+      <div class="category-grid">
+        <a href="#" class="category-card">Laptop</a>
+        <a href="#" class="category-card">Desktop</a>
+        <a href="#" class="category-card">Monitor</a>
+        <a href="#" class="category-card">Components</a>
+        <a href="#" class="category-card">Accessories</a>
+        <a href="#" class="category-card">Gaming</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hot Deals -->
+  <section class="hot-deals">
+    <div class="container">
+      <h2>Hot Deals</h2>
+      <div class="deal-card">
+        <span class="discount-badge">-30%</span>
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjUwIiBoZWlnaHQ9IjE1MCIgZmlsbD0iI2RkZCIgLz48L3N2Zz4="
+          alt="Deal Product" loading="lazy" />
+        <div class="deal-info">
+          <h3>Gaming Laptop XYZ</h3>
+          <p class="price"><span class="old-price">BDT 120,000</span> <span class="new-price">BDT 84,000</span></p>
+          <div class="countdown" data-end="2026-03-01T23:59:59+06:00">00d 00h 00m 00s</div>
+          <span class="stock-indicator">Limited Stock</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Products -->
+  <section class="latest-products">
+    <div class="container">
+      <h2>Latest Arrivals</h2>
+      <div class="product-grid" id="product-grid">
+        <!-- Product cards will be injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Showcase -->
+  <section class="brand-showcase">
+    <div class="container">
+      <h2>Our Trusted Brands</h2>
+      <div class="brand-logos">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNkZGQiIC8+PC9zdmc+"
+          alt="ASUS" loading="lazy" />
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNkZGQiIC8+PC9zdmc+"
+          alt="HP" loading="lazy" />
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNkZGQiIC8+PC9zdmc+"
+          alt="Dell" loading="lazy" />
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNkZGQiIC8+PC9zdmc+"
+          alt="Lenovo" loading="lazy" />
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNkZGQiIC8+PC9zdmc+"
+          alt="MSI" loading="lazy" />
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNkZGQiIC8+PC9zdmc+"
+          alt="Apple" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Buy From Us -->
+  <section class="why-us">
+    <div class="container">
+      <h2>Why Choose TechPulse?</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h3>Official Warranty</h3>
+          <p>All products come with manufacturer warranty.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Authentic Products</h3>
+          <p>Genuine, brand‑new items.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Nationwide Delivery</h3>
+          <p>Fast shipping across Bangladesh.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Secure Payment</h3>
+          <p>Multiple trusted gateways.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="customer-reviews">
+    <div class="container">
+      <h2>What Our Customers Say</h2>
+      <div class="reviews-carousel" id="reviews-carousel">
+        <!-- Review cards injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 TechPulse. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
